@@ -1,0 +1,13 @@
+Conway's law: Architecture and organizational strucrure
+    Conway's Law suggests that software architecture mirrors the communication structure of an organization. 
+    Traditionally, companies have siloed teams (e.g., database, UI, business logic), leading to inefficient communication and slow software development, 
+    resulting in layered architectures like N-Tier systems. Agile methodologies, on the other hand, prioritize cross-functional teams that work on 
+    vertical slices of the entire system. This approach requires a shift from siloed architectures to more flexible, modern architectures like microservices, 
+    which align better with agile practices. The key takeaway is that the software architecture should adapt to reflect the new organizational structure and workflow, enabling faster and more efficient development. 
+    Failure to change the architecture when adopting agile can lead to inefficiencies and hinder the benefits of the agile approach.
+
+
+
+
+
+
