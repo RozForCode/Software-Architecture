@@ -19,4 +19,31 @@ Traditional architect vs Modern Agile Artitects
     This approach is more efficient and responsive to user needs, eliminating bottlenecks and allowing for quicker, more effective changes. Agile architects focus on collaboration and are integrated into the development process, 
     reducing waste and improving overall productivity.
 
-More on Modern architects
+More on Modern architects 
+    In traditional waterfall development, architecture is rigid, with sequential steps where design is completed before development begins. Agile, however, focuses on flexibility, adapting as you learn.
+    In Agile, architecture evolves incrementally, with small releases and continuous feedback, allowing for constant changes and learning. Experiments guide decision-making, and failures are seen as learning opportunities, not setbacks.
+    In Agile, everyone contributes to architecture, with no single authority. Agile Architects act as "servant leaders," supporting teams, coaching them, and ensuring system coherence. They guide decisions collaboratively,
+    leveraging the team's deep understanding of the code to improve the system while maintaining the broader architectural vision.
+
+A day in the life of an architect: 
+     Frank, an Agile architect, spends his day guiding cross-functional teams at Acme, Inc. He facilitates architectural decisions, ensuring collaboration between businesspeople, developers, designers, and operations experts.
+     During a meeting, he helps the team decide on using a microservice architecture by engaging everyone through dot voting.
+
+    Frank also attends a sprint review, where the team receives feedback from a customer struggling with the system. This reveals design flaws, prompting the team to adjust the architecture. 
+    Frank sets up a visit to observe the customer at work, ensuring the team better understands user needs.
+
+    Additionally, Frank mentors team members, like Jill, who is learning about reactive systems and preparing a presentation. They decide to share her work with a broader audience during a guild meeting. 
+    Throughout his day, Frank supports, teaches, and facilitates collaboration, ensuring the architecture evolves based on real user feedback and team input.
+
+From developer to architecture
+    The path to becoming a software architect begins with being a skilled programmer. Strong programming skills are essential for understanding how to structure code and solve real-world problems.
+    Architects must have hands-on experience in coding to grasp concepts like simplicity, maintainability, and testability, which are foundational to good architecture.
+
+    Learning about design patterns is the next step, as they serve as building blocks for solving small problems within a system. Over time, 
+    architects develop the ability to understand how these patterns interact to create larger, more complex systems, which is the essence of architecture.
+
+    Exposure to different systems, whether through working on many projects or studying open-source code, is crucial. Architects benefit from analyzing code, 
+    improving it, and considering how changes affect the system. Engaging with other architects and participating in conferences, meetups, and study groups helps in broadening knowledge and sharing insights.
+
+    Additionally, strong communication and presentation skills are vital, as architects work closely with teams and must explain their designs.
+    Hands-on experience designing systems, even through personal projects, further sharpens an architect’s skills. Finally, continuous learning, experimentation, and collaboration are key to mastering the role of an architect.
