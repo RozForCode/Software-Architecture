@@ -6,6 +6,41 @@ Conway's law: Architecture and organizational strucrure
     which align better with agile practices. The key takeaway is that the software architecture should adapt to reflect the new organizational structure and workflow, enabling faster and more efficient development. 
     Failure to change the architecture when adopting agile can lead to inefficiencies and hinder the benefits of the agile approach.
 
+Incremental vs big up-front design  
+        Agile methodologies have transformed architectural thinking by rejecting the idea that software changes are costly and require a perfect initial design. In the past,
+        extensive planning often led to failures when requirements changed, resulting in systems that delivered little value.
+        Agile favors incremental design, developing in small pieces (stories) instead of relying on a comprehensive upfront design (BUFD). 
+        This approach allows for evolving designs as requirements change, while still considering an overall architecture.
+        Unlike traditional waterfall models that prioritize detailed designs from the database to the user interface, agile focuses on user needs and defers technology decisions
+         until the "last responsible moment." This flexibility enables quicker iterations and a greater emphasis on delivering useful functionality aligned with user needs.
+
+Top down vs bottom up 
+    DDD - Domain-driven design -> The structure of your code should map to the structure of the prblem domain.
+    Agile methodologies have revitalized domain-driven design (DDD), where code structure mirrors the problem domain. 
+    For example, an accounting system includes classes for accountants and ledgers, avoiding tiered architectures that obscure business needs.
+
+    Incremental design allows the architecture to reflect business requirements, using bounded contexts to define divisions within the business, 
+    such as store and warehouse contexts. This setup promotes effective communication and specialized roles.
+    The concept of "ubiquitous language" recognizes that terms can differ across contexts, simplifying implementations. 
+    Systems organized by bounded contexts enable easier modifications, as changes are concentrated within specific groups, 
+    reducing communication overhead and speeding up deployment compared to traditional tiered systems.
+
+Role of the domain (bounded contexts)
+    After establishing the program structure through domain modeling, the next step is implementation. Bounded contexts translate into program units, 
+    such as classes or subsystems in a monolithic architecture, or independent programs in a microservices architecture. 
+    These subsystems communicate through defined interfaces or intermediaries, known as "agents," which encapsulate their functionalities.
+    Design considerations include selecting off-the-shelf components, databases, and communication methods (e.g., XML, JSON). 
+    Architects must ask the right questions and conduct research, collaborating with operations and programming teams. 
+    They also need to consider the implementation platform, weighing the pros and cons of vendor-specific versus open-source solutions. 
+    While vendor solutions may seem attractive for their ease, they often lead to complications and reduced flexibility.
+    The next chapter will introduce the design process.
+
+
+
+
+
+
+
 
 
 
