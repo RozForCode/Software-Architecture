@@ -1,0 +1,22 @@
+Good underlying architecture, increases the odd of success.
+Making design that can grow as your system grows it cruicial for growth.
+Software should be made using Agile and Lean thinking and architecture is the missing link between development process and implementation.
+
+What is software architecture?
+    First, the word architect is a noun. Artitects design complete things, not conserned with implementation.
+    Software architecture refers to the design of the overall structure of a software system. Just like building architects design the layout of a building but don't handle every construction detail,
+    software architects design the structure of the system without focusing on specific implementation details, which is the role of programming.
+    Some people mistakenly view architecture as merely plugging together pre-built components (like LEGO blocks). However, true architecture is about designing a system that fits the needs of the customer and the domain it serves.
+    The choice of technology and components, such as databases, should come after understanding the problem you're solving.
+    A good architect starts with the customer’s requirements and works down to the implementation, not the other way around.
+
+Traditional architect vs Modern Agile Artitects
+    In traditional software development, a software architect, often referred to as "Architectus Matrixis," works in isolation, creating large, upfront designs before any code is written. 
+    This approach is often inefficient as it slows down the development process, introduces bottlenecks, and doesn't adapt to evolving requirements. These architects view themselves as superior to programmers, 
+    focusing on theoretical design and leaving implementation to others. The process is rigid and bureaucratic, requiring approvals for changes and often leading to outdated or incorrect designs before anything is even built.
+
+    In contrast, modern Agile architects work iteratively, learning and adapting as the project progresses. They don't create a rigid, upfront design, but instead evolve the architecture with the team as the software is developed. 
+    This approach is more efficient and responsive to user needs, eliminating bottlenecks and allowing for quicker, more effective changes. Agile architects focus on collaboration and are integrated into the development process, 
+    reducing waste and improving overall productivity.
+
+More on Modern architects
