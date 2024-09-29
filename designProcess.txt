@@ -1,0 +1,17 @@
+Requirement gathering:
+    To create an architecture, the process typically involves three phases: defining the problem, developing user stories, 
+    and defining the structure. First, the problem statement outlines the user’s issue and potential solution, focusing on the end-user's needs. 
+    For example, the goal might not be to write a blog, but to become influential through writing.
+
+    Next, user stories are created, which describe real users achieving valuable outcomes, not program features. 
+    The stories should be concise and small enough to fit on a sticky note. Refining these stories is part of an incremental, 
+    agile process, and there’s no need for an exhaustive set of stories before starting development.
+
+Two necessary steps after creating user stories: (Narrowing: Vertical vs Horizontal splitting)
+    it's called workflow narrowation
+    After creating user stories, they often need refining because they tend to be too large for quick implementation. 
+    In agile development, stories should be small enough to fully implement and deploy within a few days. 
+    The process of breaking them down is called slicing. Instead of horizontal slicing (UI, business logic, data persistence), 
+    which doesn't deliver useful results, vertical slicing (narrowing) is preferred. This involves breaking the story into smaller, 
+    complete paths, where each path achieves a valuable outcome for the user. This method, called workflow isolation, 
+    simplifies the story by removing alternative workflows. Once stories are refined, the next step is designing the architecture.
