@@ -1,0 +1,11 @@
+System vs enterprise architecture 
+    Enterprise architecture (EA) focuses on the structure and processes of a business, integrating IT infrastructure to reflect the company's operating model. 
+    It organizes business departments and communication, and ideally, the software should mirror the business processes. However, EA tends to create large, 
+    standardized systems, often leading to overly complex, bloated solutions that are difficult to maintain and slow to develop. This contrasts with agile architecture, 
+    which favors simplicity and small, independent systems. While EA aims for efficiency through standardization, it often results in wasted resources and unnecessary complexity.
+
+Design Patterns:
+    The concept of design patterns in software development stems from Christopher Alexander's work on building architecture. Patterns are discovered, not invented, and represent recurring solutions to problems. 
+    They apply to various fields, such as architecture, music, and software, and define structure rather than specific implementations. In software, design patterns help developers solve problems by providing well-known, 
+    successful templates like the Singleton pattern, which ensures a single, globally accessible instance of an object. Patterns also interact, meaning a single element may fulfill multiple patterns. 
+    They give architects a common vocabulary and apply to both small implementations (like Singletons) and entire systems through architectural patterns.
