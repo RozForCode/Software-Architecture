@@ -15,3 +15,14 @@ Two necessary steps after creating user stories: (Narrowing: Vertical vs Horizon
     which doesn't deliver useful results, vertical slicing (narrowing) is preferred. This involves breaking the story into smaller, 
     complete paths, where each path achieves a valuable outcome for the user. This method, called workflow isolation, 
     simplifies the story by removing alternative workflows. Once stories are refined, the next step is designing the architecture.
+
+Identifying bounded contexts and entities:
+    The next step in creating architecture involves identifying system agents, which could be classes, subsystems,
+    or microservices depending on the architectural pattern. Using event storming, you define domain-level events meaningful to the business, 
+    then sequence them on a timeline (using sticky notes). Actions associated with these events are added in a different color, 
+    showing what happens when each event is triggered.
+
+    The process is collaborative, involving businesspeople and developers, and helps define agents (or entities) that perform actions
+    within specific bounded contexts (e.g., comment submitting, approving, or displaying). These contexts are mapped to ensure coherence in the architecture.
+    Finally, an agent communication map is created using index cards and yarn to represent communication paths between agents, similar to a class diagram. 
+    This results in a core architecture for the system, which is iteratively expanded as more user stories are refined and implemented.
