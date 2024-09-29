@@ -1,0 +1,40 @@
+Monoliths:
+    Architectural design patterns in software, focusing on monolithic architecture. A monolith is a single large executable unit that is efficient 
+    due to its unified structure but challenging to maintain, test, and deploy, especially in agile environments. A common issue is the "big ball of mud," 
+    where a system grows haphazardly, becoming fragile and difficult to modify. Though a well-structured monolith with horizontal (tiers) and vertical (context-based) 
+    partitions can be functional, deployment is still slow. The text advises avoiding monoliths and, if stuck with one, considering replacing it with 
+    a better-structured system, as maintaining an outdated monolith can be costlier than rebuilding.
+
+MicroKernel (plugin) architecture:
+    The microkernel architecture pattern centralizes essential system capabilities into a single executable, the kernel, while other functions are handled by independent plug-ins. 
+    This approach was first used in operating systems, like Linux, where the kernel manages core services such as memory and file systems, while other services plug into it. 
+    The main advantage is that plug-ins are independent, making them easier to develop, debug, and maintain, while preventing dependency issues common in monoliths. 
+    However, the kernel APIs are sensitive, and changes can affect all plug-ins. Despite this, microkernel architectures offer more flexibility and are easier to maintain than monoliths. 
+    Examples include Microsoft's Azure Service Fabric and Amazon AWS.
+
+Message-based architectures:
+    Message-based architectures extend the microkernel concept by further isolating system components through formalized communication paths using messages. This isolation allows for safer and easier changes. 
+    Originating from real-time systems like Intel's iRMX, the architecture enables independent tasks (jobs) to communicate by sending messages, often through a queue. Modern messaging systems use intermediaries, 
+    or brokers, to facilitate communication between agents, maintaining their independence. There are two main models: direct messaging and publish/subscribe (pub/sub). Though messaging architectures improve 
+    maintainability and solve dependency issues, they can become complex and slow.
+
+Microservices and miniservices:
+    Microservices are small, independently deployable services that collaborate to form a larger system. They are designed to be autonomous, often distributed, and can handle complex real-time interactions. 
+    Key features include their small size (typically a few hundred lines of code), independent deployment, full autonomy (e.g., each service has its own database), and adaptability to unreliable networks.
+    Microservices must also be highly observable, logging all actions for monitoring and debugging.
+
+    Communication between microservices is a major challenge. While some use HTTP-based protocols like REST, messaging systems are often preferred for asynchronous communication to avoid issues with synchronous HTTP requests. 
+    Microservices are well-suited for agile environments due to their ability to make isolated changes without affecting the entire system, but they introduce design and runtime complexity. They are slower compared to monolithic 
+    architectures due to network latency. While microservices offer agility, they also require careful management of their complexity.
+
+Reactive and choreographed systems:
+    Reactive architectures offer an alternative to the traditional declarative or orchestrated systems by decoupling components and enabling parallel processing. In declarative systems, services like 
+    a shopping cart directly call other services (e.g., billing or warehouse) and wait for each to complete before moving on. This approach results in tight coupling and inefficiency, 
+    as changes in one service can ripple through others, and the total latency accumulates across all services.
+
+    In contrast, reactive architectures allow services to broadcast events (e.g., "order has been placed") without knowing who will handle them. 
+    Any interested service can respond to the event independently, reducing coupling and enabling faster, parallel execution. 
+    This approach is more efficient and easier to maintain. Additionally, reactive principles can be applied within monolithic systems, 
+    improving flexibility and maintainability by decoupling key classes.
+
+    In summary, reactive architectures offer better performance and scalability by promoting decoupling and parallel processing compared to traditional, tightly-coupled declarative systems.
